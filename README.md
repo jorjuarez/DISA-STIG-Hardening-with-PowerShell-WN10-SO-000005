@@ -42,7 +42,6 @@ Before running scripts that modify the built-in administrator account (such as *
 
 **Workaround for Azure VMs:** If you get locked out of an Azure VM, you can regain access by using the **"Reset password"** feature in the Azure portal to create a new, temporary administrator account.
 
----
 ## Disclaimer
 These scripts are provided as-is. Always test them in a non-production environment before deploying to live systems. The user assumes all risk associated with running these scripts.
 
