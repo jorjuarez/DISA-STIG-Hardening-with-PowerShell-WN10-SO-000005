@@ -35,6 +35,13 @@ Unblock-File -Path '.\Set-StigCompliance.WN10-SO-000005.ps1'
 # Execute the script to apply the remediation.
 .\'Set-StigCompliance.WN10-SO-000005.ps1'
 ```
+### ⚠‼ Important Prerequisite for Account Management Scripts
+Before running scripts that modify the built-in administrator account (such as **WN10-SO-000005** - Disable Account and **WN10-SO-000025** - Rename Account), you **must** ensure you have a separate, active administrator account.
+
+**Outcome if Not Followed:** If the built-in administrator is the only account you use for remote access (RDP/Bastion), running these scripts **will lock you out** of the machine.
+
+**Workaround for Azure VMs:** If you get locked out of an Azure VM, you can regain access by using the **"Reset password"** feature in the Azure portal to create a new, temporary administrator account.
+---
 ## Disclaimer
 These scripts are provided as-is. Always test them in a non-production environment before deploying to live systems. The user assumes all risk associated with running these scripts.
 
