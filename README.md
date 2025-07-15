@@ -44,7 +44,7 @@ Before running scripts that modify the built-in administrator account (such as *
 
 ---
 ## Disclaimer
-These scripts are provided as-is. Always test them in a non-production environment before deploying to live systems. The user assumes all risk associated with running these scripts.
+This script is provided as-is. Always test them in a non-production environment before deploying to live systems. The user assumes all risk associated with running these scripts.
 
 ---
 ## Connect With Me
